@@ -1,0 +1,29 @@
+@media(min-width: 993px){
+    body{
+        background-image: url(../imagenes/Fondo.png);
+        background-size: cover;
+    }
+    header{
+        background-color: #1e1e1e;
+        opacity: 90%;
+        padding: 1%;
+        border-radius: 50px;
+        width: 70%;
+        margin-left: 13.5%;
+        margin-right: 13.5%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+    }
+    header:hover{
+        opacity: 100%;
+    }
+    #logo1Header, #logo3Header{
+        width: 60px;
+        height: auto;
+    }
+    #logo2Header{
+        width: auto;
+        height: 55px;
+    }
+}

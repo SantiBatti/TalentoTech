@@ -1,0 +1,900 @@
+@media(min-width: 993px){ /*PC*/
+
+    /*Config body y header*/
+    body{
+        background-image: url(../imagenes/Fondo.png);
+        background-size: cover;
+    }
+    header{
+        background-color: #1e1e1e;
+        opacity: 90%;
+        padding: 1%;
+        border-radius: 50px;
+        width: 70%;
+        margin: 0% 13.5%; /**/
+        margin-top: 1%;
+        display: flex;
+        position: fixed;
+        justify-content: space-around;
+        transition: all 0.3s ease;
+    }
+    header:hover{
+        opacity: 100%;
+    }
+    header.scrolled{
+        float: right;
+        width: 30%;
+    }
+    #logo1Header, #logo3Header{
+        width: 60px;
+        height: auto;
+    }
+    #logo2Header{
+        width: auto;
+        height: 55px;
+    }
+
+    /*Santiago Battipede y Diseño Gráfico*/
+    .titulo{
+        padding-top: 9%;
+    }
+    #diseñoGrafico{
+        font-family: "Questrial", sans-serif;
+        font-style: normal;
+        font-size: 20pt;
+        color: #1e1e1e;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        text-align: center; 
+    }
+    #SantiagoBattipede{
+        font-size: 40pt;
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        color: #1e1e1e;
+        text-align: center;    
+    }
+
+    /*Titulos de Secciones*/
+    h2{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 19pt;
+        color: #1e1e1e;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    #clientetitulo{
+        font-size: 20pt;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #1e1e1e;
+        margin-bottom: 0%;
+    }
+    #clienteEpisteme{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 20pt;
+        color: #1e1e1e;
+        margin-top: -1%;
+        margin-bottom: -1%;
+        margin-left: 2%;
+    }
+
+    /*config secciones*/
+    .programs{
+        width: 60%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 20%;
+        margin-right: 20%;
+        position: relative;
+    }
+    .listas{
+        font-size: 20px;
+        color: #1e1e1e;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding: 1px;
+    }
+    #psicon, #iaLogo, #aiLogo, #prLogo{
+        height: 20px;
+        width: 20px;
+    }
+    #blLogo{
+        height: auto;
+        width: 20px;
+    }
+    #queManejo{
+        font-size: 20pt;
+        color: #1e1e1e;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin-bottom: 0%;
+    }
+
+    /*portafolio*/
+    #miPortafolio{
+        font-size: 50px;
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        color: #1e1e1e;
+        text-align: center;
+    }
+    #billboard{
+        height: 90px;
+        width: auto;
+    }
+    .portfolioTitleBox{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    /*albumArt*/
+    .albumArt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
+        padding: 1%;
+        border-radius: 20px;
+        align-items: center;
+        justify-items: center;
+    }
+    #buttonDoxa{
+        border-color: #1e1e1e00;
+        background-color:#edecee00;
+        color: #1e1e1e;
+    }
+    #buttonDoxa:hover{
+        background-color: #00092fd8;
+        color: #edecee;
+        border-radius: 20px;
+        #albumTitle{
+            color: #edecee;
+        }
+    }
+    .doxaArt { grid-area: 1 / 1 / 2 / 2; }
+    .doxaTexts { grid-area: 1 / 2 / 2 / 3; }
+    #Doxa{
+        width: 600px;
+        height: auto;
+        border-radius: 20px;
+    }
+    #albumTitle{
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        text-align: left;
+        font-size: 25pt;
+        margin-bottom: 0%;
+    }
+    #albumText{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: left;
+        font-size: 16pt;
+        margin-bottom: 0%;
+    }
+
+    /*config del ig y be*/
+    #igbutton{
+        align-items: center;
+        justify-items: center;
+        height: auto;
+        width: auto;
+        font-size: 25pt;
+        background-color: #edecee00;
+        margin-left: 20%;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #1e1e1e;
+        border-color: #1e1e1e00;
+        border-radius: 10px;
+    }
+    #igbutton:hover{
+        font-size: 25pt;
+        background-color: #1e1e1e;
+        color: #edecee;
+    }
+    #bebutton{
+        align-items: center;
+        justify-items: center;
+        height: auto;
+        width: auto;
+        font-size: 25pt;
+        background-color: #edecee00;
+        margin-left: 20%;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #1e1e1e;
+        border-color: #1e1e1e00;
+        border-radius: 10px;
+    }
+    #bebutton:hover{
+        font-size: 25pt;
+        background-color: #1e1e1e;
+        color: #edecee;
+    }
+    #iglogo{
+        width: 30px;
+        height: auto;
+        margin: -1%;
+        padding: -1%;
+    }
+    #belogo{
+        width: 30px;
+        height: auto;
+        margin: -1%;
+        padding: -1%;
+    }
+}
+
+@media(max-width: 992px){ /*medianos992px*/
+    /*Config body y header*/
+    body{
+        background-image: url(../imagenes/Fondo.png);
+        background-size: cover;
+    }
+    header{
+        background-color: #1e1e1e;
+        opacity: 100%;
+        padding: 1%;
+        border-radius: 50px;
+        width: 70%;
+        margin-left: 13.5%;
+        margin-right: 13.5%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+    }
+    #logo1Header, #logo3Header{
+        width: 60px;
+        height: auto;
+    }
+    #logo2Header{
+        width: auto;
+        height: 55px;
+    }
+
+    /*Santiago Battipede y Diseño Gráfico*/
+    .titulo{
+        padding-top: 7%;
+    }
+    #diseñoGrafico{
+        font-family: "Questrial", sans-serif;
+        font-style: normal;
+        font-size: 20pt;
+        color: #1e1e1e;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        text-align: center; 
+    }
+    #SantiagoBattipede{
+        font-size: 40pt;
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        color: #1e1e1e;
+        text-align: center;    
+    }
+
+    /*Titulos de Secciones*/
+    h2{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 19pt;
+        color: #1e1e1e;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    #clientetitulo{
+        font-size: 20pt;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #1e1e1e;
+        margin-bottom: 0%;
+    }
+    #clienteEpisteme{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 20pt;
+        color: #1e1e1e;
+        margin-bottom: -1%;
+        margin-left: 2%;
+        margin-top: -1%;
+    }
+
+    /*config secciones*/
+    .listas{
+        font-size: 20px;
+        color: #1e1e1e;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding: 1px;
+    }
+    #psicon, #iaLogo, #aiLogo, #prLogo{
+        height: 20px;
+        width: 20px;
+    }
+    #blLogo{
+        height: auto;
+        width: 20px;
+    }
+    #queManejo{
+        font-size: 20pt;
+        color: #1e1e1e;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin-bottom: 0%;
+    }
+
+    /*portafolio*/
+    #miPortafolio{
+        font-size: 50px;
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        color: #1e1e1e;
+        text-align: center;
+    }
+    #billboard{
+        height: 90px;
+        width: auto;
+    }
+    .portfolioTitleBox{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    /*albumArt*/
+    .albumArt {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        grid-row-gap: 0px;
+        padding: 1%;
+        align-items: center;
+        justify-items: center;
+    }
+    #buttonDoxa{
+        border-color: #1e1e1e00;
+        background-color:#00092fd8;
+        color: #edecee;
+        border-radius: 20px;
+    }
+    .doxaArt { grid-area: 1 / 1 / 2 / 2; }
+    .doxaTexts { grid-area: 1 / 2 / 2 / 3; }
+    #Doxa{
+        width: 450px;
+        height: auto;
+        border-radius: 20px;
+    }
+    #albumTitle{
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        text-align: left;
+        font-size: 20pt;
+        margin-bottom: -3%;
+        color: #edecee;
+    }
+    #albumText{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: left;
+        font-size: 12pt;
+        margin-bottom: 0%;
+    }
+
+    /*config del ig y be*/
+    #igbutton{
+        align-items: center;
+        justify-items: center;
+        height: auto;
+        width: auto;
+        font-size: 25pt;
+        background-color: #edecee00;
+        margin-left: 20%;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #1e1e1e;
+        border-color: #1e1e1e00;
+        border-radius: 10px;
+    }
+    #igbutton:hover{
+        font-size: 25pt;
+        background-color: #1e1e1e;
+        color: #edecee;
+    }
+    #bebutton{
+        align-items: center;
+        justify-items: center;
+        height: auto;
+        width: auto;
+        font-size: 25pt;
+        background-color: #edecee00;
+        margin-left: 20%;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #1e1e1e;
+        border-color: #1e1e1e00;
+        border-radius: 10px;
+    }
+    #bebutton:hover{
+        font-size: 25pt;
+        background-color: #1e1e1e;
+        color: #edecee;
+    }
+    #iglogo{
+        width: 30px;
+        height: auto;
+        margin: -1%;
+        padding: -1%;
+    }
+    #belogo{
+        width: 30px;
+        height: auto;
+        margin: -1%;
+        padding: -1%;
+    }
+}
+@media(max-width: 768px){/*medio chiquito 768*/
+       /*Config body y header*/
+       body{
+        background-image: url(../imagenes/Fondo.png);
+        background-size: cover;
+    }
+    header{
+        background-color: #1e1e1e;
+        opacity: 100%;
+        padding: 2%;
+        border-radius: 50px;
+        width: 70%;
+        margin-left: 13.5%;
+        margin-right: 13.5%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+    }
+    #logo1Header, #logo3Header{
+        width: 40px;
+        height: auto;
+    }
+    #logo2Header{
+        width: auto;
+        height: 35px;
+    }
+
+    /*Santiago Battipede y Diseño Gráfico*/
+    .titulo{
+        padding-top: 10%;
+    }
+    #diseñoGrafico{
+        font-family: "Questrial", sans-serif;
+        font-style: normal;
+        font-size: 14pt;
+        color: #1e1e1e;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        text-align: center; 
+    }
+    #SantiagoBattipede{
+        font-size: 27pt;
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        color: #1e1e1e;
+        text-align: center;    
+    }
+
+    /*Titulos de Secciones*/
+    h2{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 12pt;
+        color: #1e1e1e;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    #clientetitulo{
+        font-size: 12pt;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #1e1e1e;
+        margin-bottom: 0%;
+    }
+    #clienteEpisteme{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 12pt;
+        color: #1e1e1e;
+        margin-bottom: -1%;
+        margin-left: 2%;
+        margin-top: -1%;
+    }
+
+    /*config secciones*/
+    .listas{
+        font-size: 17px;
+        color: #1e1e1e;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding: 1px;
+    }
+    #psicon, #iaLogo, #aiLogo, #prLogo{
+        height: 17px;
+        width: 17px;
+    }
+    #blLogo{
+        height: auto;
+        width: 17px;
+    }
+    #queManejo{
+        font-size: 17pt;
+        color: #1e1e1e;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin-bottom: 0%;
+    }
+
+    /*portafolio*/
+    #miPortafolio{
+        font-size: 37px;
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        color: #1e1e1e;
+        text-align: center;
+    }
+    #billboard{
+        height: 67px;
+        width: auto;
+    }
+    .portfolioTitleBox{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    /*albumArt*/
+    .albumArt {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 20% 30%;
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+        padding: 1%;
+        align-items: center;
+        justify-items: center;
+    }
+    #buttonDoxa{
+        border-color: #1e1e1e00;
+        background-color:#00092fd8;
+        color: #edecee;
+        border-radius: 20px;
+        margin-bottom: 3%;
+    }
+    .doxaArt { grid-area: 1 / 1 / 2 / 2; }
+    .doxaTexts { grid-area: 2 / 1 / 4 / 2; }
+    #Doxa{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 10%;
+        margin-bottom: -2%;
+    }
+    #albumTitle{
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 23pt;
+        margin-bottom: -2%;
+        color: #edecee;
+    }
+    #albumText{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: center;
+        font-size: 16pt;
+        margin-bottom: -5%;
+    }
+
+    /*config del ig y be*/
+    .igybe{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+    }
+    #igbutton{
+        position: relative;
+        height: auto;
+        width: auto;
+        font-size: 15pt;
+        background-color: #1e1e1e;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #edecee;
+        border-color: #1e1e1e00;
+        border-radius: 10px;
+    }
+    #bebutton{
+        position: relative;
+        align-items: center;
+        justify-items: center;
+        height: auto;
+        width: auto;
+        font-size: 15pt;
+        background-color: #1e1e1e;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #edecee;
+        border-color: #1e1e1e00;
+        border-radius: 10px;
+    }
+    #iglogo{
+        width: 18px;
+        height: auto;
+        margin: -1%;
+        padding: -1%;
+    }
+    #belogo{
+        width: 18px;
+        height: auto;
+        margin: -1%;
+        padding: -1%;
+    }
+}
+@media(max-width: 576px){ /*chiquito 576*/
+       /*Config body y header*/
+       body{
+        background-image: url(../imagenes/Fondo.png);
+        background-size: cover;
+    }
+    header{
+        background-color: #1e1e1e;
+        opacity: 100%;
+        padding: 2%;
+        border-radius: 50px;
+        width: 70%;
+        margin-left: 13.5%;
+        margin-right: 13.5%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+    }
+    #logo1Header, #logo3Header{
+        width: 40px;
+        height: auto;
+    }
+    #logo2Header{
+        width: auto;
+        height: 35px;
+    }
+
+    /*Santiago Battipede y Diseño Gráfico*/
+    .titulo{
+        padding-top: 10%;
+    }
+    #diseñoGrafico{
+        font-family: "Questrial", sans-serif;
+        font-style: normal;
+        font-size: 14pt;
+        color: #1e1e1e;
+        margin-top: -1%;
+        margin-bottom: 1%;
+        text-align: center; 
+    }
+    #SantiagoBattipede{
+        font-size: 27pt;
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        color: #1e1e1e;
+        text-align: center;    
+    }
+
+    /*Titulos de Secciones*/
+    h2{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 12pt;
+        color: #1e1e1e;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    #clientetitulo{
+        font-size: 12pt;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #1e1e1e;
+        margin-bottom: 0%;
+    }
+    #clienteEpisteme{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 12pt;
+        color: #1e1e1e;
+        margin-bottom: -1%;
+        margin-left: 2%;
+        margin-top: -1%;
+    }
+
+    /*config secciones*/
+    .listas{
+        font-size: 17px;
+        color: #1e1e1e;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        padding: 1px;
+    }
+    #psicon, #iaLogo, #aiLogo, #prLogo{
+        height: 17px;
+        width: 17px;
+    }
+    #blLogo{
+        height: auto;
+        width: 17px;
+    }
+    #queManejo{
+        font-size: 17pt;
+        color: #1e1e1e;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        margin-bottom: 0%;
+    }
+
+    /*portafolio*/
+    #miPortafolio{
+        font-size: 27px;
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        color: #1e1e1e;
+        text-align: center;
+    }
+    #billboard{
+        height: 57px;
+        width: auto;
+    }
+    .portfolioTitleBox{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    /*albumArt*/
+    .albumArt {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 20% 30%;
+        grid-column-gap: 0px;
+        grid-row-gap: 10px;
+        padding: 1%;
+        align-items: center;
+        justify-items: center;
+    }
+    #buttonDoxa{
+        border-color: #1e1e1e00;
+        background-color:#00092fd8;
+        color: #edecee;
+        border-radius: 20px;
+        margin-bottom: 3%;
+    }
+    .doxaArt { grid-area: 1 / 1 / 2 / 2; }
+    .doxaTexts { grid-area: 2 / 1 / 4 / 2; }
+    #Doxa{
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        margin-top: 6%;
+        margin-bottom: -3%;
+    }
+    #albumTitle{
+        font-family: "Bowlby One", sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 20pt;
+        margin-bottom: -3%;
+        color: #edecee;
+    }
+    #albumText{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-align: center;
+        font-size: 13pt;
+        margin-bottom: -1%;
+    }
+
+    /*config del ig y be*/
+    .igybe{
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+    }
+    #igbutton{
+        position: relative;
+        height: auto;
+        width: auto;
+        font-size: 15pt;
+        background-color: #1e1e1e;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #edecee;
+        border-color: #1e1e1e00;
+        border-radius: 10px;
+    }
+    #bebutton{
+        position: relative;
+        align-items: center;
+        justify-items: center;
+        height: auto;
+        width: auto;
+        font-size: 15pt;
+        background-color: #1e1e1e;
+        justify-content: space-around;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        color: #edecee;
+        border-color: #1e1e1e00;
+        border-radius: 10px;
+    }
+    #iglogo{
+        width: 18px;
+        height: auto;
+        margin: -1%;
+        padding: -1%;
+    }
+    #belogo{
+        width: 18px;
+        height: auto;
+        margin: -1%;
+        padding: -1%;
+    }
+}
+/*Poniendo las etiquetas generales como "img" o "h1", modificas TODOS los objetos que tengan esas etiquetas
+En cambio, si les ponés un "id" en el index y luego las llamas acá con "#(Nombre", modificaras solo ese objeto/etiqueta.*/
+/*Las "class" se llaman poniendo ".Nombre"*/
